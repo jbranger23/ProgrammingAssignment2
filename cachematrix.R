@@ -1,5 +1,5 @@
-## Put comments here that give an overall description of what your
-## functions do
+## These function allow to improve the performance of data manipulation by
+## allowing to avoid repeted calculation of lenghtly already done calculationa
 
 ## This function returns a list of function to set and get the matrix
 ## and its inverse
@@ -17,8 +17,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## WThis function calculates the inverse of a matrix or returns its
-## previus calculated value if exited
+## This function calculates the inverse of a matrix or returns its
+## previus calculated value if it was calculated before
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
