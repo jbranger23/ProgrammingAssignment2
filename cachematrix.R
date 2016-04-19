@@ -1,5 +1,5 @@
-## These function allow to improve the performance of data manipulation by
-## allowing to avoid repeted calculation of lenghtly already done calculationa
+## These functions help improving the performance of data manipulation by
+## avoiding repeted calculation if already done before.
 
 ## This function returns a list of function to set and get the matrix
 ## and its inverse
